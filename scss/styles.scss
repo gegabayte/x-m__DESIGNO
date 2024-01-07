@@ -843,6 +843,7 @@ body {
     }
 
 }
+
 @media screen and (max-width:450px) {
     .container {
         max-width: 430px;
@@ -851,19 +852,90 @@ body {
         .section__block1 img,
         .section__block2 img {
             width: 350px;
-            height: 300px;
+            height: 250px;
             object-fit: cover;
         }
     }
     .aside__container {
         .aside__success {
-            width: 350px;
+            width: 330px;
         }
         .aside__success h3 {
             margin-left: 4px;
         }
         .aside__success p {
             width: 300px;
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+    .container {
+        max-width: 350px;
+    }
+    .hero__container {
+        .hero__success {
+            height: 843px;
+        }
+
+        h2 {
+
+            height: 120px;
+            margin-left: 75px;
+            font-size: 32px;
+            width: 400px;
+        }
+
+        p {
+            top: 10px;
+           position: relative;
+           left: 68px;
+            width: 300px;
+            margin-top: 20px;
+            font-size: 15px
+        }
+    }
+    .section__container {
+        .section__block1 img, .section__block2 img {
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+        }
+    }
+    
+    .sidebar__container {
+        .sidebar__block {
+            flex-wrap: wrap;
+        }
+        .sidebar__number h5,
+        p {
+            margin-left: 50px;
+            text-align: center;
+        }
+    }
+    .aside__container {
+        .aside__success {
+            background-image: url(../img/aside__bg--img--res.webp);
+            background-repeat: repeat;
+            background-position: right;
+            width: 300px;
+        }
+        .aside__success h3 {
+            margin-left: 15px;
+            width: 280px;
+        }
+        .aside__success p {
+            width: 280px;
+            flex-wrap: wrap;
+        }
+    }
+    .footer__container {
+        .footer__head {
+            box-shadow: none;
+        }
+         .footer__nav ul {
+            display: flex;
+            flex-direction: column;
         }
     }
 }
