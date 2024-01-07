@@ -887,8 +887,7 @@ body {
             flex-wrap: wrap;
         }
 
-        .sidebar__number h5,
-        p {
+        .sidebar__number h5,p {
             text-align: center;
         }
     }
@@ -896,6 +895,7 @@ body {
     .aside__container {
         .aside__success {
             width: 400px;
+            height: 400px;
         }
 
         .aside__block1 h3 {

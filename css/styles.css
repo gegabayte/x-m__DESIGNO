@@ -722,12 +722,12 @@ body {
   .sidebar__container .sidebar__block {
     flex-wrap: wrap;
   }
-  .sidebar__container .sidebar__number h5,
-  .sidebar__container p {
+  .sidebar__container .sidebar__number h5, .sidebar__container p {
     text-align: center;
   }
   .aside__container .aside__success {
     width: 400px;
+    height: 400px;
   }
   .aside__container .aside__block1 h3 {
     width: 300px;
